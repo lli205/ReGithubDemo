@@ -14,6 +14,8 @@ struct ContentView: View {
                 .imageScale(.large)
                 .foregroundStyle(.tint)
             Text("Hello, Swift World!")
+            Text("Hello, Swift World!")
+            Button("hello", action: pressedHI)
         }
         .padding()
     }
@@ -23,3 +25,6 @@ struct ContentView: View {
     ContentView()
 }
 
+func pressedHI() {
+    print("Branch: FunctionTest")
+}
